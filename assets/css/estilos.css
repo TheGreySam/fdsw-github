@@ -14,15 +14,26 @@ body {
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
+#Mis-trabajos {
+  background-image: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%), url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
+}
+#Mis-trabajos .image-top {
+  
+  height: 250px;
+
+  
 }
 
 /* Contacto */
-
+#Contacto {
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%,rgba(200, 200, 200, 0.9) 100%), url("../img/card-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
@@ -36,5 +47,20 @@ body {
   .navbar-brand{
     width: 100px;
   }
+
+}
+
+.Footer {
+  background-image: -webkit-linear-gradient(top, rgba(0,47,75,0.8) 0%,rgba(220, 66, 37, 0.7) 100%), url("../img/card-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.newnavbar {
+    background-image: -webkit-linear-gradient(top, rgba(62, 85, 215, 0.7), rgba(1, 34, 219, 0.7) 100%), url("../img/card-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 
 }
